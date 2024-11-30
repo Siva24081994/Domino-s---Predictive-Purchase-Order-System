@@ -46,24 +46,23 @@ Domino's aims to enhance its inventory management process by predicting future p
 ### 2. Exploratory Data Analysis (EDA)
 - **Visualized trends and patterns** such as top-selling pizzas, sales by day of the week/month, and peak hours.
 - Identified seasonality and variability in sales data.
-![image](https://github.com/user-attachments/assets/11a9ebf9-2485-4cdf-b317-04fae258420e)
+![image](https://github.com/user-attachments/assets/288b7483-2582-4eae-bc8c-749cf845d77f)
+![image](https://github.com/user-attachments/assets/9cad7ea3-ae45-40d8-a266-6db9e5cd446f)
+![image](https://github.com/user-attachments/assets/3aeeb3ca-23f3-4099-b75e-bfeeb98a7c5f)
+![image](https://github.com/user-attachments/assets/7643dfe6-555c-4be2-bc68-0a600ba3c0d1)
+![image](https://github.com/user-attachments/assets/5eb747e5-0442-4a39-a670-1b9945046e18)
 
-  ![image](https://github.com/user-attachments/assets/74df3a66-5ca0-4c27-a849-c2daa5ea9010)
-  ![image](https://github.com/user-attachments/assets/9606454c-3d1a-462f-8c59-6c8a06348e23)
-  ![image](https://github.com/user-attachments/assets/5efa7202-5569-4c4a-8200-ffe6354023ae)
-  ![image](https://github.com/user-attachments/assets/616d1cca-c929-4451-9c0e-cdc31653db22)
-  ![image](https://github.com/user-attachments/assets/231f89a5-d7c1-48a0-b866-b6b238118dc4)
+
+
+
 
 ### 3. Model Development and Comparison
 Implemented and compared four forecasting models:
 - **ARIMA**: Showed a flat trend, underperforming in variability capture.
-  
-- ![image](https://github.com/user-attachments/assets/38afea8c-9e4c-4130-bd75-03b54e6b4b5d)
+  ![image](https://github.com/user-attachments/assets/b8a8fc61-3183-41e6-b7ae-116a63a59829)
 
 
 - **SARIMA**: Better seasonality capture, but lagged during sudden demand changes.
-
-- ![image](https://github.com/user-attachments/assets/cd3b233d-673e-48d0-a6f8-71a3633623c0)
 
 - **Prophet**: Best model with the lowest MAPE, effectively handling trends and seasonality.
 
@@ -77,6 +76,9 @@ Implemented and compared four forecasting models:
 ### 5. Ingredient Calculation
 - Calculated required quantities for each ingredient using the forecasted sales and ingredient dataset.
 - Generated a **Purchase Order** summarizing ingredient requirements.
+
+- ![image](https://github.com/user-attachments/assets/1163d8b7-95bc-4bae-a64c-eacd2962aec3)
+
 ---
 
 ## Results

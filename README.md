@@ -77,7 +77,9 @@ Implemented and compared four forecasting models:
 - Calculated required quantities for each ingredient using the forecasted sales and ingredient dataset.
 - Generated a **Purchase Order** summarizing ingredient requirements.
 
-- ![image](https://github.com/user-attachments/assets/1163d8b7-95bc-4bae-a64c-eacd2962aec3)
+-
+- ![image](https://github.com/user-attachments/assets/044bec70-d6ce-46cb-b4e7-da123918c367)
+
 
 ---
 

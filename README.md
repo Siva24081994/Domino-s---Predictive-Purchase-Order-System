@@ -48,27 +48,26 @@ Domino's aims to enhance its inventory management process by predicting future p
 - Identified seasonality and variability in sales data.
 
   ![image](https://github.com/user-attachments/assets/74df3a66-5ca0-4c27-a849-c2daa5ea9010)
-
- 
-![CHEESE!](./Images/Sales_Trends.png)
-
-
-![CHEESE!](./Images/monthly_trend.png)
-
- 
-![CHEESE!](./Images/weekly_trend.png)
-
-![CHEESE!](./Images/peak_hours.png)
-
-![CHEESE!](./Images/top_selling.png)
+  ![image](https://github.com/user-attachments/assets/9606454c-3d1a-462f-8c59-6c8a06348e23)
+  ![image](https://github.com/user-attachments/assets/5efa7202-5569-4c4a-8200-ffe6354023ae)
+  ![image](https://github.com/user-attachments/assets/616d1cca-c929-4451-9c0e-cdc31653db22)
+  ![image](https://github.com/user-attachments/assets/231f89a5-d7c1-48a0-b866-b6b238118dc4)
 
 ### 3. Model Development and Comparison
 Implemented and compared four forecasting models:
 - **ARIMA**: Showed a flat trend, underperforming in variability capture.
--   ![CHEESE!](./Images/ACP_PACF.png)
+  
+- ![image](https://github.com/user-attachments/assets/38afea8c-9e4c-4130-bd75-03b54e6b4b5d)
+
+
 - **SARIMA**: Better seasonality capture, but lagged during sudden demand changes.
+
+- ![image](https://github.com/user-attachments/assets/cd3b233d-673e-48d0-a6f8-71a3633623c0)
+
 - **Prophet**: Best model with the lowest MAPE, effectively handling trends and seasonality.
-  ![CHEESE!](./Images/prophet.png)
+
+ ![image](https://github.com/user-attachments/assets/530a661c-c78a-4e26-b0ca-72fd7ef44305)
+
 - **LSTM**: Neural network approach struggled with variability but remains promising for larger datasets.
 
 ### 4. Forecasting Sales
@@ -77,7 +76,6 @@ Implemented and compared four forecasting models:
 ### 5. Ingredient Calculation
 - Calculated required quantities for each ingredient using the forecasted sales and ingredient dataset.
 - Generated a **Purchase Order** summarizing ingredient requirements.
-  ![CHEESE!](./Images/pruchase_order.png)
 ---
 
 ## Results
@@ -93,13 +91,6 @@ Implemented and compared four forecasting models:
 - **Metrics**: MAPE (Mean Absolute Percentage Error).
 
 ---
-
-## How to Run the Project
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-repository/dominos-predictive-order-system.git
-
 
 ## Key Insights
 - Seasonality: Clear weekly and monthly trends were observed, aiding precise predictions.

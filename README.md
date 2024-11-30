@@ -25,10 +25,6 @@ Domino's aims to enhance its inventory management process by predicting future p
 1. **Sales Data**: Historical records including date, pizza type, size, quantity sold, and revenue details.
 2. **Ingredient Data**: A dataset listing the ingredients required for each pizza type, along with their respective quantities.
 
-### Dataset Sources:
-- [Pizza Sales Dataset](https://github.com/pavankethavath/Dominos---Predictive-Purchase-Order-System/blob/main/Pizza_Sale%20-%20pizza_sales.csv)
-- [Pizza Ingredients Dataset](https://github.com/pavankethavath/Dominos---Predictive-Purchase-Order-System/blob/main/Pizza_ingredients%20-%20Pizza_ingredients.csv)
-
 ---
 ## Domain
 **Food Service Industry**
@@ -50,6 +46,9 @@ Domino's aims to enhance its inventory management process by predicting future p
 ### 2. Exploratory Data Analysis (EDA)
 - **Visualized trends and patterns** such as top-selling pizzas, sales by day of the week/month, and peak hours.
 - Identified seasonality and variability in sales data.
+
+  ![image](https://github.com/user-attachments/assets/74df3a66-5ca0-4c27-a849-c2daa5ea9010)
+
  
 ![CHEESE!](./Images/Sales_Trends.png)
 

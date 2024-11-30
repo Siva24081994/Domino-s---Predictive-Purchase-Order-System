@@ -46,6 +46,7 @@ Domino's aims to enhance its inventory management process by predicting future p
 ### 2. Exploratory Data Analysis (EDA)
 - **Visualized trends and patterns** such as top-selling pizzas, sales by day of the week/month, and peak hours.
 - Identified seasonality and variability in sales data.
+![image](https://github.com/user-attachments/assets/11a9ebf9-2485-4cdf-b317-04fae258420e)
 
   ![image](https://github.com/user-attachments/assets/74df3a66-5ca0-4c27-a849-c2daa5ea9010)
   ![image](https://github.com/user-attachments/assets/9606454c-3d1a-462f-8c59-6c8a06348e23)

@@ -276,18 +276,10 @@ The project delivers highly accurate pizza sales forecasts, providing precise pr
 
 ---
 
-Clone the project:
 
-```bash
-git clone https://github.com/kadarmeeran465/dominos-predictive-purchase-order-system.git
-```
 
 Install dependencies:
 ```bash
 pip install pandas, numpy, scikit-learn, statsmodels, fbprophet, seaborn, matplotlib
 ```
 ---
-## 🔗 Links
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kadar-meeran465)
-[![Gmail](https://img.shields.io/badge/gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kadarmeeran465@gmail.com)

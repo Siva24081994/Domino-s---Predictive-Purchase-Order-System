@@ -192,15 +192,6 @@ Model Training involves fitting the chosen model to historical sales data:
 
 ![image](https://github.com/user-attachments/assets/d0b25630-b219-43f9-9c64-2009400e8244)
 
-#### Regression Model
-- Data Preparation: Converts order_date to datetime and aggregates weekly sales.
-- Feature Engineering: Creates features: week of the year, day of the week, month, and year.
-- Train-Test Split: Divides data into 80% training and 20% testing sets.
-- Model Training: Trains a linear regression model on the training set.
-- Model Evaluation: Calculates and prints MAPE for accuracy assessment.
-- Visualization: Plots actual vs. predicted weekly sales for performance evaluation.
-
-![image](https://github.com/user-attachments/assets/10c08dd4-72b1-4847-ba5a-52154b028d33)
 
 #### LSTM Model for Weekly Sales
 - Weekly sales data is aggregated and split into training (80%) and test sets, then normalized using MinMaxScaler.
@@ -217,16 +208,11 @@ Performance Overview: The table below summarizes the Mean Absolute Percentage Er
 
 | Model      | MAPE   | Rank | Best/Worst |
 |------------|--------|------|------------|
-| SARIMA     | 0.1849 | 1    | Best       |
-| ARIMA      | 0.1896 | 2    |            |
-| Regression | 0.1911 | 3    |            |
-| Prophet    | 0.1962 | 4    |            |
-| LSTM       | 0.2404 | 5    | Worst      |
+| SARIMA     | 0.1336 | 1    | Best       |
+| ARIMA      | 0.1968 | 2    |            |  
+| Prophet    | 0.2163 | 3    |            |
+| LSTM       | 0.2243 | 4    | Worst      |
 
-### Scores Visualization
-- Generated bar charts to compare MAPE scores across different models for quick performance assessment.
-
-![image](https://github.com/user-attachments/assets/941d9b80-1928-4a9a-a3f3-754412cd2a4a)
 
 ## Conclusion
 The SARIMA model outperformed other models, providing the most accurate sales predictions, while LSTM yielded the least accurate results. This project lays the groundwork for improving inventory management through data-driven forecasting techniques.
@@ -239,9 +225,6 @@ This section demonstrates how to load the best-performing SARIMA model and use i
 
 2. **Forecasting**: The model predicts sales for the next 7 days (`n_forecast = 7`).
 
-3. **Visualization**: A plot is generated to compare the training data with the forecasted sales, clearly illustrating expected future sales trends. The forecast is displayed in orange, while the training data is shown in blue.
-
-![image](https://github.com/user-attachments/assets/c01708ef-253f-4e54-b447-5c77e2131604)
 
 ### Predicted Ingredient Quantities
 
@@ -256,12 +239,6 @@ This section calculates the total quantity of ingredients needed based on predic
 - 4. Visualizing Quantities: A bar chart visualizes the top 10 predicted ingredients, illustrating the total quantity (in grams) needed for the next week.
 
 - 5. Saving Results: The ingredient totals are saved to a CSV file, predicted_ingredient_totals.csv, for future reference and easy sharing.
-
-<img width="721" alt="image" src="https://github.com/user-attachments/assets/1466b107-19ba-4bf8-9bbc-81182677558a">
-
-![image](https://github.com/user-attachments/assets/a0e9ca84-4235-4eb9-b804-18733b654d96)
-
-<img width="276" alt="image" src="https://github.com/user-attachments/assets/f1975c39-bf2e-42d9-9b90-15e006ae4deb">
 
 ---
 
